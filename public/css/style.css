@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:ital,opsz,wght@0,8..30,100..900;1,8..30,100..900&family=Poetsen+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Piazzolla", serif;
+
+}
+
+:root{
+    --main-bg:#1e272e;
+    --main-color:#0097e6;
+}
+html{
+    font-size: 62.5%;
+    /* 1rem = 10px */
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    margin: 0;
+}
+.main_menu{
+    background-color: var(--main-bg);
+}
+.navbar{
+    color: #fff;
+    background-color: var(--main-bg);
+}
+
+/* footer code */
+footer{
+    width: 100%;
+    background-color: var(--main-bg);
+    margin-top: auto;
+}
+
+footer p{
+    margin: 0;
+    text-align: center;
+    color: white;
+    line-height: 10rem;
+    font-size: 1.4rem;
+}

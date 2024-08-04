@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+{{>navbar}}
+
+{{!-- main header --}}
+<div class="container-fluid main_menu" >
+  <div class="row">
+    <div class="col-md-10 col-12 mx-auto">
+      <div class="row">
+        {{!-- left side div --}}
+        <div class="col-md-6 col-12 main_header_left">
+          <p>Welcome to weather app</p>
+          <h1>get the leatest <span>weather</span> info of your city</h1>
+          <a href="/weather"><button class="btn btn-danger">check now</button></a>
+        </div>
+        {{!-- right side div --}}
+        <div class="col-md-6 col-12 main_header_right">
+          
+          {{>caresole}}
+        </div>
+
+      </div>
+
+
+    </div>
+  </div>
+
+</div>
+
+{{!-- footer code --}}
+
+<footer>
+  <p>created by shubham lonkar</p>
+</footer>
+
+
+
+ 
+ 
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
